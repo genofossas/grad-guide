@@ -9,27 +9,35 @@ style=numeric,
 ]{biblatex}
 \addbibresource{ref.bib}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    allcolors=blue
+}
 
 \begin{document}
 
 \input{title.tex}
 
+\begingroup
+\hypersetup{linkcolor=black}
 \tableofcontents
 \pagebreak
+\endgroup
 
 \section{Introduction}
 
 Welcome to the guide! I plan to cover a small group of undergraduate research and graduate school related topics, which are fully detailed in the table of contents. My goal is to provide some insight into how I got accepted into graduate school and the way I utilized my time doing undergraduate research. Before I get into the meat of this document, I’ll introduce myself: I’m an undergraduate student that graduated in Spring 2021 from a public university in the USA ranked around 52 on CSRankings\footnote{As of May 2021}. As you might expect, I got a BS in computer science. I was recently accepted into a computer science PhD program that is ranked in the top 20 on CSRankings. It’s important to keep these details about me in mind, as it influences my opinions and what I include in this document. I would also like to fully emphasize that my opinions are my own, and don’t reflect those of my employer or any educational institution I attended or currently attend. 
 
-I don’t expect that this document will be useful to everyone, but I hope to provide some use to those that may be in the same boat. Applying to graduate school stressed me out, and I wish I had more opinions to read and compare. Especially opinions of people that had a pretty mediocre GPA when applying, like myself. This document is going to be an amalgamation of things I've heard from my undergraduate mentor and things I've learned in helpful documents. Everything that isn't from my mentor will be properly cited.
+I don’t expect that this document will be useful to everyone, but I hope to provide some use to those that may be in the same boat. Applying to graduate school stressed me out, and I wish I had more opinions to read and compare. Especially opinions of people that had a mediocre GPA when applying, like myself. This document is going to be an amalgamation of things I've heard from my undergraduate mentor and things I've learned in helpful documents. Everything that isn't from my mentor will be properly cited.
 
 So, you figured out you want a grad degree late in your undergrad. There’s a lot of things to work on and consider from here on out, so we should begin with the most important question:
 
 \subsection{Are You Sure You Want a Graduate Degree?}
 
-You figured out you want the degree, but are you really sure? Many PhD holders cite getting their PhD as a long and arduous process that had incredible peaks but also very demoralizing troughs. Some suggest treating it as a strange job rather than being a student, as very few responsibilities of a PhD student revolve around taking classes. \cite{AzumaPhD} As a PhD student, you are an apprentice academic learning under the guidance of your advisor. You do take a few classes in the beginning, but high marks do not warrant special attention. Classes are meant to impart some basic knowledge and skills and are not a determining factor in your success (outside fulfilling degree requirements). Research success is determined by papers, presentations, products, prototypes, and otherwise disseminating the findings of your research.
+You figured out you want the degree, but are you really sure? Many PhD holders cite getting their PhD as a long and arduous process that had incredible peaks but also very demoralizing troughs. Some suggest treating it as a strange job rather than being a student, as very few responsibilities of a PhD student revolve around taking classes. \cite{AzumaPhD} As a PhD student, you are an apprentice academic learning under the guidance of your advisor. You do take a few classes in the beginning, but high marks do not warrant special attention. Classes are meant to impart some basic knowledge and skills and are not a determining factor in your success (outside fulfilling degree requirements). Success for a PhD student is mostly determined by making significant progress towards disseminating your findings. More generally, research success is determined by papers, presentations, products, prototypes, and otherwise disseminating the findings of your research.
 
-This is question is especially important in computer science, as a PhD (and sometimes MS) do not offer a good return on investment if the goal is to boost your salary. A BS is good enough to land you most entry level software development jobs in industry, and work experience will take you much farther when moving up the corporate ladder and applying for other industry jobs. However, obtaining a PhD will open doors to research oriented jobs in academia, industry, and government, so if you're interested in doing research as career a PhD is a good choice. \cite{robertsonwebsite} A MS in certain areas, such as machine learning, may open some doors for you in industry, so you should do more research on your chosen area of interest before committing to a MS.
+Determining if you really want a graduate degree is especially important in computer science, as a PhD (and sometimes MS) do not offer a good return on investment if the goal is to boost your salary. A BS is good enough to land you most entry level software development jobs in industry, and work experience will take you much farther when moving up the corporate ladder and applying for other industry jobs. A MS in certain topics (machine learning, artificial intelligence, etc) may be necessary for some industry positions involving that topic, so you should do more research on your chosen area of interest before committing to a MS. Obtaining a PhD, however, will open doors to research oriented jobs in academia, industry, and government, making it a good choice for those that wish to make research their career. \cite{robertsonwebsite} 
 
 It took me a while to be wholly sure about getting the PhD, but I found thinking about what jobs I'd like to have really solidified that a PhD is for me. If you think you're sure about getting a PhD, continue reading. Onward and forward!
 
@@ -37,8 +45,7 @@ It took me a while to be wholly sure about getting the PhD, but I found thinking
 
 Graduate school applications are intimidating for many. This is especially true for first generation college students like myself. Understanding the graduate school application process is the most important step in preparing, so placing the information I gathered about it as the first real section of the guide seemed best. Before I get into details, though, I want to emphasize that what I say here \textbf{will not apply for all graduate programs}. This is especially true for masters degree applications, as I will be primarily addressing PhD programs.
 
-The primary trait that the admission committee want to see in PhD applicants is ability to succeed as a researcher. This can be demonstrated with past published papers and research experience. It is not disastrous to not have research experience, especially if you have great GRE scores, a high GPA, and can clearly demonstrate that you have research potential\footnote{I would still suggest a student in this situation to gain some research experience, as it is a more clear representation of what day-to-day life will be like in a PhD program.}. However, it does improve your application considerably to have research experience. This is especially so for applicants with average GRE scores and GPA. If you have a few semesters left in your undergrad, it is not too late to start undergraduate research. I personally started in the first semester of my junior year. Look at the list of professors in your school and locate one that does research that you are interested in\footnote{More on contacting professors to come in a future section.}.
-
+The primary trait that the admission committee want to see in PhD applicants is ability to succeed as a researcher. To call back to earlier in this document, research success is determined by published papers, presentations, products, prototypes, and otherwise disseminating the findings of your research. Your potential to be a successful researcher can be demonstrated with published papers (unlikely) or past research experience. It is not disastrous to not have research experience, especially if you have great GRE scores, a high GPA, and can clearly demonstrate that you have a genuine interest in research\footnote{Research experience is still recommended in this case, as it is a better reflection of what grad school will be like. I will not be extensively covering this case, so looking elsewhere may provide more better tailored advice.}. However, it does improve your application considerably to have research experience. This is especially so for applicants with average GRE scores and GPA. If you have a few semesters left in your undergrad, it is not too late to start undergraduate research. I personally started in the first semester of my junior year. Look at the list of professors in your school and email one that does research that you are interested in.
 
 \subsection{Application Components}
 
@@ -60,11 +67,11 @@ Items with asterisks may not show up in all applications. Some schools require m
 
 \subsubsection{Statement of Purpose}
 
-The statement of purpose is one of the most important parts of your application. The statement of purpose is your opportunity to market yourself and your skill set to the admissions committee and any professors you may be interested in being advised by. There has been a lot written on composing a good statement of purpose, so perusing the greater pool of information on this topic is definitely advised, but I'll address the common recommendations I followed when applying to PhD programs.
+The statement of purpose is one of the most important parts of your application. The statement of purpose is your opportunity to market yourself and your skill set to the admissions committee and any professors you may be interested in being advised by. The goal for the statement of purpose is the same as the rest of the application: convince the admissions committee that you have the potential to be successful in research. There has been a lot written on composing a good statement of purpose, so perusing the greater pool of information on this topic is definitely advised, but I'll address the common recommendations I followed when applying to PhD programs.
 
-The primary information to include in your statement is what degree you're seeking, the general area of research you're interested in, your past research (or related industry) experience, projects you've worked on, and some indication of what lab or professors you're interested in. Avoid telling stories about your experiences with computer science in childhood, as those experiences are generally not indicative of your current skills and some committee members really don't care for them. \cite{mightgradguide,vasansop} Your statement should only be roughly 1 page with a readable font and acceptable margins. I personally used a 11pt serif font with 1 inch margins. Also be sure to check the application for specific formatting directions for your statement, as some schools will require you to double space your statement and give you a larger page limit to account for the extra line space. Given your limited space, it is important to only expand upon relevant details of your experience. \textbf{Most importantly of all, do not use a general statement for all the programs you're applying to.} You should be naming specific professors or labs in your statement and gearing how you discuss your experience to their research interests.
+The primary information to include in your statement is what degree you're seeking, why you're seeking that degree, the general area of research you're interested in, your past research (or related industry) experience, projects you've worked on, and some indication of what lab or professors you're interested in. Successfully marketing yourself is something that comes with practice and looking at examples. The general guidance, however, is to demonstrate that you have the interest, experience, and potential to do research. \cite{mightgradguide} Some things to address when describing your experience is the goal of the project, the core technical challenge, and the key insights into the solution. \cite{mightgradguide} If you have industry experience that is not directly related, it might be still marketable as demonstrations of your soft skills. Soft skills usually refer to a combination of interpersonal skills, communication skills, critical thinking skills, and organization skills. \cite{cotesoftskills} Soft skills include ability to work in a team, problem solve independently, and direct your own work.
 
-Successfully marketing yourself and your experience is something that comes with practice and looking at examples. It might take a long while to write your first draft as a consequence. The general guidance, however, is to stick to concrete details and provide numerical figures for your work. For instance: what did your work improve, and by how much? Naturally this example will not always apply to all experiences, but being concrete about what your work has contributed and how it makes you a better candidate for a lab is important. If you have industry experience that is not directly related, it might be still marketable as demonstrations of your soft skills. Soft skills include working in a team, ability to discuss and present technical content, and ability to be independent, among many other social skills.
+Avoid telling stories about your experiences with computer science in childhood, as those experiences are generally not indicative of your current skills and some committee members really don't care for them. \cite{mightgradguide,vasansop} Your statement should only be roughly 1 page with a readable font and acceptable margins. I personally used a 11pt serif font with 1 inch margins. Also be sure to check the application for specific formatting directions for your statement, as some schools will require you to double space your statement and give you a larger page limit to account for the extra line space. Given your limited space, it is important to only expand upon relevant details of your experience. \textbf{Most importantly of all, do not use a general statement for all the programs you're applying to.} You should be naming specific professors or labs in your statement and gearing how you discuss your experience to their research interests.
 
 Before submitting your statement, be sure to have several people look over it for you. You can generally point out most awkward phrasing and grammar mistakes if you come back to it after 24 hours, but others will be able to point out sections that are confusing with more ease. The more eyes combing over your statement, the better.
 
@@ -74,11 +81,42 @@ Recommendation letters are often considered the most important part of your appl
 
 As you would expect, the best way to get strong letters is to form strong working relationships with professors. The easiest way to do this is to participate in undergraduate research and interact with the professor(s) overseeing the research, but you can also interact with professors teaching courses by going to office hours and participating in class.
 
+\subsubsection{On GPAs and GRE Scores}
+
 \subsection{Choosing and Contacting Potential Advisors}
 
 As mentioned several times in the above paragraphs, having a set of professors or a lab you're interested in is somewhat important. It makes your statement of purpose easier to tailor. However, it is not strictly required to have this list of professors, especially if you're not exactly sure what area of computer science you're most interested in. I will not discuss this case in depth here since I have little experience with it, but I will defer to a great guide written by many different members of the systers that addresses how to handle this case in your application. \cite{systerssop}
 
-\subsection{Deadlines}
+To locate professors, you may wish to filter the list of schools on \href{https://csrankings.org}{CSRankings} for your interests. This will give you some names to start with, which could lead to you locating a lab web page with several professors doing research in your area of interest. Be sure to look at the professor's (or lab's) most recent publications, as it is a clearer indication of the areas they're working in currently. If you have a mentor with an academic network, you may wish to leverage that to find a potential advisor. Applying to work under a colleague of your current mentor may result in better odds of being accepted, as your mentor's recommendation may carry more weight. Your milage may vary, however; I was not accepted to work under a previous colleague of my mentor.
+
+Before submitting your application, you may wish to email the professors you're interested in so that they keep an eye out for your application. The recommendation for when to reach out to them varies, but the latest I would suggest is one month before you submit your application. \cite{mightgradguide} Mention which degree you're applying for, your research interests, your prior experience, and some projects of theirs that you're interested in. Be sure to keep the email brief and only include relevant details. Commenting intelligently on some of their research is also great to include where possible. Professors receive a lot of generic emails from prospective students, so be sure to write a tailored email for each professor you plan to contact. Professors may also have guidelines for prospective students to follow when emailing to easily pick out which emails aren't generic, so be sure to closely inspect their website for one.
+
+\subsection{Interviews}
+
+So, you've finally submitted your applications and are waiting anxiously. The next step to look out for is a professor reaching out (usually by email) to request an interview with you. Not all accepted students are interviewed, as conducting interviews is professor and school dependent, but it's important to keep an eye on the email you used to apply anyway.
+
+The contents of an interview is heavily dependent on the professor interviewing you. Many report that they were not asked traditional technical questions, but some professors may do so to ascertain your technical skill. To prepare for this interview, you'll want to read some of the professor's latest work (if you haven't already) and brush up on any technical skills that you think would be relevant (syntax for programming languages, relevant toolchains, etc). Make sure to read through their website and any other publicly available biographical information to answer any simple questions you may have.
+
+It is important to note that while the professor is interviewing your fitness for their lab, you should also be asking questions of them to determine if they're a good fit for your advising needs. Some questions you may want to ask of a prospective advisor include:
+
+\begin{itemize}
+    \item What is your advising style?
+    \begin{itemize}
+        \item How closely do you work with your graduate students?
+    \end{itemize}
+    \item How big is your lab?
+    \begin{itemize}
+        \item How big do you envision your lab becoming?
+    \end{itemize}
+    \item What positions do students from your lab hold after graduation?
+    \item Is there funding for graduate students to attend conferences?
+    \item Are you okay with your graduate students taking summer internships?
+    \item Where does your funding come from?
+\end{itemize}
+
+There are many questions that I have not listed here, as students can have numerous combinations of priorities and desires. Combinations that result in far too many questions to include here. A good place to start exploring more questions is a document produced by several students at Colombia University. \cite{colombiaquestions} That document has questions that are geared for visiting after acceptance, but there are several questions on there meant for advisors directly that you can ask while being interviewed.
+
+\section{Undergraduate Research}
 
 \section{References}
 
