@@ -10,6 +10,7 @@
 *.synctex.gz
 *.bcf
 *.toc
+*_temp.tex
 
 # VSCode
 .vscode/
