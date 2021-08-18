@@ -1,4 +1,4 @@
-# Graduate School Guide
+# Graduate School Applications Guide
 
 A small graduate school applications guide especially aimed at
 those that may have only decided they wanted a PhD two years into
